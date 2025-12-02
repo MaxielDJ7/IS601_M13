@@ -119,4 +119,4 @@ pytest tests/e2e -vv
 
 # 🤖 GitHub Actions CI/CD
 
-![CI](https://github.com/MaxielDJ7/is601_module13/actions/workflows/test.yml/badge.svg)
+![CI](https://github.com/MaxielDJ7/IS601_M13/actions/workflows/test.yml/badge.svg)
