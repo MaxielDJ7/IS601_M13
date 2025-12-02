@@ -27,3 +27,6 @@ def get_engine(database_url: str = SQLALCHEMY_DATABASE_URL):
 def get_sessionmaker(engine):
     """Factory function to create a new sessionmaker bound to the given engine."""
     return sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+# Ensure tables exist whenever the app imports this module
+Base.metadata.create_all(bind=engine)
