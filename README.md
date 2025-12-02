@@ -96,6 +96,8 @@ docker-compose up --build
 | PostgreSQL | localhost:5432                                 |
 | Redis      | localhost:6379                                 |
 
+My Dockerhub: https://hub.docker.com/r/maxieldj7/is601_module13
+
 # 🧪 Running Tests
 
 ## 🔹 Run All Tests
